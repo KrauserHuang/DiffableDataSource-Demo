@@ -7,15 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F20111C28ED7AFA008ACE52 /* BannerCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F20111B28ED7AFA008ACE52 /* BannerCollectionViewController.swift */; };
+		4F20112128ED8868008ACE52 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F20112028ED8868008ACE52 /* UIColor+Extension.swift */; };
+		4F20112428ED88D9008ACE52 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F20112328ED88D9008ACE52 /* Color.swift */; };
+		4F20112628ED8C82008ACE52 /* LayoutType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F20112528ED8C82008ACE52 /* LayoutType.swift */; };
 		4F7D297A28EC654D000F2816 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7D297928EC654D000F2816 /* AppDelegate.swift */; };
 		4F7D297C28EC654D000F2816 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7D297B28EC654D000F2816 /* SceneDelegate.swift */; };
 		4F7D297E28EC654D000F2816 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F7D297D28EC654D000F2816 /* ViewController.swift */; };
 		4F7D298128EC654D000F2816 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F7D297F28EC654D000F2816 /* Main.storyboard */; };
 		4F7D298328EC6550000F2816 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F7D298228EC6550000F2816 /* Assets.xcassets */; };
 		4F7D298628EC6550000F2816 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F7D298428EC6550000F2816 /* LaunchScreen.storyboard */; };
+		4FFCE1B828EE668B002166E4 /* LayoutTypeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFCE1B728EE668B002166E4 /* LayoutTypeCell.swift */; };
+		4FFCE1BC28EE6C61002166E4 /* UICollectionReusableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFCE1BB28EE6C61002166E4 /* UICollectionReusableView+Extension.swift */; };
+		4FFCE1BE28EE854F002166E4 /* PagingSectionFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFCE1BD28EE854F002166E4 /* PagingSectionFooterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F20111B28ED7AFA008ACE52 /* BannerCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerCollectionViewController.swift; sourceTree = "<group>"; };
+		4F20112028ED8868008ACE52 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		4F20112328ED88D9008ACE52 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		4F20112528ED8C82008ACE52 /* LayoutType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutType.swift; sourceTree = "<group>"; };
 		4F7D297628EC654D000F2816 /* DiffableDataSource Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DiffableDataSource Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F7D297928EC654D000F2816 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F7D297B28EC654D000F2816 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +35,9 @@
 		4F7D298228EC6550000F2816 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F7D298528EC6550000F2816 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F7D298728EC6550000F2816 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4FFCE1B728EE668B002166E4 /* LayoutTypeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutTypeCell.swift; sourceTree = "<group>"; };
+		4FFCE1BB28EE6C61002166E4 /* UICollectionReusableView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionReusableView+Extension.swift"; sourceTree = "<group>"; };
+		4FFCE1BD28EE854F002166E4 /* PagingSectionFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagingSectionFooterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +51,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F20111A28ED7A14008ACE52 /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				4F20111B28ED7AFA008ACE52 /* BannerCollectionViewController.swift */,
+				4FFCE1B728EE668B002166E4 /* LayoutTypeCell.swift */,
+				4FFCE1BD28EE854F002166E4 /* PagingSectionFooterView.swift */,
+			);
+			path = CollectionView;
+			sourceTree = "<group>";
+		};
+		4F20111D28ED87EE008ACE52 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4F20112028ED8868008ACE52 /* UIColor+Extension.swift */,
+				4FFCE1BB28EE6C61002166E4 /* UICollectionReusableView+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		4F20112228ED88CD008ACE52 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4F20112328ED88D9008ACE52 /* Color.swift */,
+				4F20112528ED8C82008ACE52 /* LayoutType.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		4F7D296D28EC654D000F2816 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +98,9 @@
 		4F7D297828EC654D000F2816 /* DiffableDataSource Demo */ = {
 			isa = PBXGroup;
 			children = (
+				4F20112228ED88CD008ACE52 /* Model */,
+				4F20111D28ED87EE008ACE52 /* Extension */,
+				4F20111A28ED7A14008ACE52 /* CollectionView */,
 				4F7D297928EC654D000F2816 /* AppDelegate.swift */,
 				4F7D297B28EC654D000F2816 /* SceneDelegate.swift */,
 				4F7D297D28EC654D000F2816 /* ViewController.swift */,
@@ -138,9 +183,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F20112628ED8C82008ACE52 /* LayoutType.swift in Sources */,
+				4F20111C28ED7AFA008ACE52 /* BannerCollectionViewController.swift in Sources */,
 				4F7D297E28EC654D000F2816 /* ViewController.swift in Sources */,
 				4F7D297A28EC654D000F2816 /* AppDelegate.swift in Sources */,
+				4F20112128ED8868008ACE52 /* UIColor+Extension.swift in Sources */,
 				4F7D297C28EC654D000F2816 /* SceneDelegate.swift in Sources */,
+				4FFCE1BC28EE6C61002166E4 /* UICollectionReusableView+Extension.swift in Sources */,
+				4FFCE1BE28EE854F002166E4 /* PagingSectionFooterView.swift in Sources */,
+				4F20112428ED88D9008ACE52 /* Color.swift in Sources */,
+				4FFCE1B828EE668B002166E4 /* LayoutTypeCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
